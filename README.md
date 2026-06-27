@@ -73,13 +73,71 @@ Generate natural-sounding MP3 narration for your WordPress posts without API fee
 
 ## Installation
 
-1. Upload the plugin to WordPress.
-2. Activate the plugin.
-3. Install Edge-TTS on your computer or server.
-4. Enter the Edge-TTS path in the plugin settings.
-5. Select your preferred voice.
-6. Save settings.
-7. Generate audio for your posts.
+### 1. Upload the Plugin
+
+* Upload the plugin to WordPress.
+* Activate the plugin.
+
+### 2. Install Edge-TTS
+
+Open Command Prompt:
+
+```bash
+pip install edge-tts
+```
+
+### 3. Locate Edge-TTS
+
+Typical Windows paths:
+
+Python 3.13:
+
+```text
+C:\Users\USERNAME\AppData\Local\Programs\Python\Python313\Scripts\edge-tts.exe
+```
+
+Python 3.11:
+
+```text
+C:\Users\USERNAME\AppData\Local\Programs\Python\Python311\Scripts\edge-tts.exe
+```
+
+You can verify the path by running:
+
+```bash
+where edge-tts
+```
+
+### 4. Configure the Plugin
+
+Go to:
+
+Esefoke Audio → Settings
+
+Enter the Edge-TTS executable path.
+
+Example:
+
+```text
+C:\Users\USERNAME\AppData\Local\Programs\Python\Python313\Scripts\edge-tts.exe
+```
+
+### 5. Select Voice and Speed
+
+* Choose your preferred voice.
+* Adjust speech speed.
+* Enable automatic generation if desired.
+
+### 6. Generate Audio
+
+Go to:
+
+Esefoke Audio → Generate Audio
+
+Select a post and click:
+
+Convert To Audio.
+
 
 ---
 
