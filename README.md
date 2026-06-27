@@ -13,11 +13,29 @@ Generate natural-sounding MP3 narration for your WordPress posts without API fee
 </p>
 
 <p align="center">
-  <img src="assets/icon-128x128.png" width="96">
+<a href="https://github.com/esefoke/esefoke-audio/releases/latest">
+Download Latest Release
+</a>
 </p>
 
 ---
 
+## Why Esefoke Audio?
+
+Most WordPress text-to-speech plugins require paid APIs or cloud subscriptions.
+
+Esefoke Audio uses Microsoft's Edge-TTS engine to generate high-quality narration completely free of API costs.
+
+Ideal for:
+
+- Bloggers
+- News websites
+- Educational websites
+- Accessibility improvements
+- Audio content creators
+
+  ---
+  
 ## Features
 
 ✅ Free AI voices
@@ -59,6 +77,17 @@ Generate natural-sounding MP3 narration for your WordPress posts without API fee
 ### Settings
 
 ![Settings](assets/screenshot-4.png)
+
+---
+
+## Supported Platforms
+
+- Windows
+- Local development environments
+- Laragon
+- XAMPP
+- WordPress websites
+- Self-hosted servers
 
 ---
 
@@ -232,6 +261,10 @@ Frank Okenegede
 Website:
 
 https://esefoke.xyz
+
+Project Releases:
+
+https://github.com/esefoke/esefoke-audio/releases
 
 ---
 
