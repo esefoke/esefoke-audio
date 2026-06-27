@@ -1,0 +1,72 @@
+ESEFOKE AUDIO CHANGELOG
+
+==================================================
+Version 1.4.0
+Release Date: June 2026
+=======================
+
+NEW FEATURES
+
+* Added configurable Edge-TTS executable path.
+* Added automatic audio generation on post publish.
+* Added Generate Missing Audio feature.
+* Added audio regeneration support.
+* Added speech speed control.
+* Added multiple Edge-TTS voices.
+* Added dashboard statistics.
+* Added provider information.
+* Added audio metadata storage.
+* Added portable installation support.
+
+IMPROVEMENTS
+
+* Removed hardcoded Edge-TTS path.
+* Improved plugin portability.
+* Improved settings management.
+* Improved audio generation workflow.
+* Improved compatibility across multiple WordPress installations.
+
+FIXES
+
+* Fixed duplicate audio generation.
+* Fixed provider display formatting.
+* Fixed audio generation errors.
+* Fixed settings save issues.
+* Fixed metadata storage issues.
+
+==================================================
+Version 1.3.0
+=============
+
+* Added Edge-TTS integration.
+* Added manual audio generation.
+* Added audio library.
+* Added delete audio functionality.
+* Added frontend audio player.
+* Added voice selection.
+* Added speech speed settings.
+
+==================================================
+Version 1.2.0
+=============
+
+* Added plugin settings page.
+* Added provider settings.
+* Added audio storage support.
+* Added WordPress integration.
+
+==================================================
+Version 1.1.0
+=============
+
+* Added basic audio generation.
+* Added post selection.
+
+==================================================
+Version 1.0.0
+=============
+
+Initial release.
+
+* WordPress plugin structure created.
+* Initial Edge-TTS implementation.

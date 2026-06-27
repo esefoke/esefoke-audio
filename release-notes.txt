@@ -1,0 +1,22 @@
+ESEFOKE AUDIO 1.5.0
+
+NEW FEATURES
+-------------
+- Edge-TTS integration
+- Frontend audio player
+- Download MP3
+- Audio Library
+- Generate Missing Audio
+
+IMPROVEMENTS
+------------
+- Python 3.11 support
+- Python 3.13 support
+- Better audio management
+
+FIXES
+-----
+- Audio deletion
+- Metadata cleanup
+
+Thank you for using Esefoke Audio.
