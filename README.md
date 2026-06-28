@@ -35,7 +35,21 @@ Ideal for:
 - Audio content creators
 
   ---
-  
+
+  ## Quick Features
+
+| Feature | Included |
+|--------|----------|
+| Edge-TTS | ✅ |
+| Multiple Voices | ✅ |
+| MP3 Download | ✅ |
+| Audio Library | ✅ |
+| Frontend Player | ✅ |
+| Auto Generation | ✅ |
+| No API Fees | ✅ |
+
+ ---
+ 
 ## Features
 
 ✅ Free AI voices
@@ -80,6 +94,15 @@ Ideal for:
 
 ---
 
+## Requirements
+
+* WordPress 6.0+
+* PHP 8.0+
+* Python 3.11 or later
+* Edge-TTS installed
+
+---
+
 ## Supported Platforms
 
 - Windows
@@ -88,15 +111,6 @@ Ideal for:
 - XAMPP
 - WordPress websites
 - Self-hosted servers
-
----
-
-## Requirements
-
-* WordPress 6.0+
-* PHP 8.0+
-* Python 3.11 or later
-* Edge-TTS installed
 
 ---
 
@@ -167,7 +181,33 @@ Select a post and click:
 
 Convert To Audio.
 
+---
 
+## Troubleshooting
+
+### Edge-TTS not found
+
+Run:
+
+```bash
+where edge-tts
+```
+
+Copy the returned path into the plugin settings.
+
+### Audio generation fails
+
+- Verify Python is installed.
+- Verify Edge-TTS is installed.
+- Confirm the Edge-TTS path is correct.
+- Check the selected voice.
+
+### No audio generated
+
+- Verify the post contains content.
+- Check your PHP permissions.
+- Confirm the upload directory is writable.
+  
 ---
 
 ## Supported Voices
@@ -242,7 +282,7 @@ https://github.com/esefoke/esefoke-audio/releases/latest
 
 ## Support
 
-For bug reports, feature requests, or suggestions:
+For bug reports, feature requests, or suggestions, please open an issue:
 
 https://github.com/esefoke/esefoke-audio/issues
 
